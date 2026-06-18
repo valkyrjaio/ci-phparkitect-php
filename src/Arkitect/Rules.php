@@ -349,7 +349,7 @@ class Rules
                 ->because('All test classes should be final');
 
             $testRules[] = Rule::allClasses()
-                ->that(new ResideInOneOfTheseNamespaces('*Classes\\'))
+                ->that(new ResideInOneOfTheseNamespaces('*\\Classes\\'))
                 ->andThat(new NotHaveNameMatching('*Enum'))
                 ->andThat(new IsNotTrait())
                 ->andThat(new IsNotInterface())
@@ -357,7 +357,7 @@ class Rules
                 ->because('Testable classes should be named appropriately');
 
             $testRules[] = Rule::allClasses()
-                ->that(new ResideInOneOfTheseNamespaces('*Classes\\'))
+                ->that(new ResideInOneOfTheseNamespaces('*\\Classes\\'))
                 ->should(new NotHaveNameMatching('*Test'))
                 ->because('Testable classes are not tests');
 
