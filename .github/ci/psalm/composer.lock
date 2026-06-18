@@ -3416,12 +3416,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja-php.git",
-                "reference": "5df88682dbde966c51fafdcba5c203b791ea29d1"
+                "reference": "b4b322a87bb876be61c67aa5f5118e8ff9968563"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/5df88682dbde966c51fafdcba5c203b791ea29d1",
-                "reference": "5df88682dbde966c51fafdcba5c203b791ea29d1",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/b4b322a87bb876be61c67aa5f5118e8ff9968563",
+                "reference": "b4b322a87bb876be61c67aa5f5118e8ff9968563",
                 "shasum": ""
             },
             "require": {
@@ -3435,7 +3435,7 @@
             "conflict": {
                 "filp/whoops": "<2.18.4",
                 "firebase/php-jwt": "<7.1.0",
-                "guzzlehttp/guzzle": "<7.11.2",
+                "guzzlehttp/guzzle": "<7.12.0",
                 "league/flysystem": "<3.34.0",
                 "league/flysystem-aws-s3-v3": "<3.34.0",
                 "mailgun/mailgun-php": "<4.5.0",
@@ -3449,7 +3449,7 @@
             "require-dev": {
                 "filp/whoops": "^2.18.4",
                 "firebase/php-jwt": "^7.1.0",
-                "guzzlehttp/guzzle": "^7.11.2",
+                "guzzlehttp/guzzle": "^7.12.0",
                 "league/flysystem": "^3.34.0",
                 "league/flysystem-aws-s3-v3": "^3.34.0",
                 "mailgun/mailgun-php": "^4.5.0",
@@ -3467,7 +3467,7 @@
                 "ext-sodium": "Required to use the default Crypt adapters and/or JWT EdDSA Algorithm (*)",
                 "filp/whoops": "Required to use the default Throwable handler (^2.18.4)",
                 "firebase/php-jwt": "Required to use the default Jwt adapter (^7.1.0)",
-                "guzzlehttp/guzzle": "Required to use the default Client adapter (^7.11.2).",
+                "guzzlehttp/guzzle": "Required to use the default Client adapter (^7.12.0).",
                 "league/flysystem": "Required to use the default Filesystem adapter (^3.34.0).",
                 "league/flysystem-aws-s3-v3": "Required to use the s3 Filesystem adapter (^3.34.0)",
                 "mailgun/mailgun-php": "Required to use the Mailgun Mail adapter (^4.5.0).",
@@ -3503,9 +3503,9 @@
             ],
             "support": {
                 "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
-                "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
+                "source": "https://github.com/valkyrjaio/valkyrja-php/tree/v26.4.0"
             },
-            "time": "2026-06-16T17:47:20+00:00"
+            "time": "2026-06-18T05:12:45+00:00"
         },
         {
             "name": "vimeo/psalm",
