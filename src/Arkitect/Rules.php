@@ -341,7 +341,7 @@ class Rules
                 ->andThat(new NotHaveNameMatching('*AttributeClass'))
                 ->andThat(new NotHaveNameMatching('*EnvClass'))
                 ->andThat(new NotHaveNameMatching('*Parent*'))
-                ->andThat(new NotResideInTheseNamespaces('Valkyrja\\Tests\\Classes\\Vendor'))
+                ->andThat(new NotResideInTheseNamespaces('Valkyrja\\Tests\\Fixtures\\Vendor'))
                 ->andThat(new IsNotAbstract())
                 ->andThat(new IsNotTrait())
                 ->andThat(new IsNotInterface())
@@ -349,7 +349,7 @@ class Rules
                 ->because('All test classes should be final');
 
             $testRules[] = Rule::allClasses()
-                ->that(new ResideInOneOfTheseNamespaces('*\\Classes\\'))
+                ->that(new ResideInOneOfTheseNamespaces('*\\Fixtures\\'))
                 ->andThat(new NotHaveNameMatching('*Enum'))
                 ->andThat(new IsNotTrait())
                 ->andThat(new IsNotInterface())
@@ -357,7 +357,7 @@ class Rules
                 ->because('Testable classes should be named appropriately');
 
             $testRules[] = Rule::allClasses()
-                ->that(new ResideInOneOfTheseNamespaces('*\\Classes\\'))
+                ->that(new ResideInOneOfTheseNamespaces('*\\Fixtures\\'))
                 ->should(new NotHaveNameMatching('*Test'))
                 ->because('Testable classes are not tests');
 
