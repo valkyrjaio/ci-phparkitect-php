@@ -338,7 +338,7 @@ class Rules
             $testRules[] = Rule::allClasses()
                 ->that(new ResideInOneOfTheseNamespaces('*Tests\\'))
                 ->andThat(new NotHaveNameMatching('*TestCase'))
-                ->andThat(new NotHaveNameMatching('*AttributeClass'))
+                ->andThat(new NotHaveNameMatching('*AttributeFixture'))
                 ->andThat(new NotHaveNameMatching('*EnvClass'))
                 ->andThat(new NotHaveNameMatching('*Parent*'))
                 ->andThat(new NotResideInTheseNamespaces('Valkyrja\\Tests\\Fixtures\\Vendor'))
@@ -353,8 +353,8 @@ class Rules
                 ->andThat(new NotHaveNameMatching('*Enum'))
                 ->andThat(new IsNotTrait())
                 ->andThat(new IsNotInterface())
-                ->should(new HaveNameMatching('*Class'))
-                ->because('Testable classes should be named appropriately');
+                ->should(new HaveNameMatching('*Fixture'))
+                ->because('Testable fixtures should be named with a Fixture suffix');
 
             $testRules[] = Rule::allClasses()
                 ->that(new ResideInOneOfTheseNamespaces('*\\Fixtures\\'))
