@@ -52,7 +52,6 @@ jobs:
       phpunit-extensions: 'mbstring, intl'
       psalm-run-script: 'psalm-shepherd-with-stats'
       source-paths: |
-        .github/workflows/_workflow-call.yml
         src/**/*.php
         tests/**/*.php
         composer.json
