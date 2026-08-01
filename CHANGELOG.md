@@ -1,6 +1,15 @@
 # Release Notes for 26.x
 
-## [Unreleased](https://github.com/valkyrjaio/phparkitect/compare/v26.5.2...26.x)
+## [Unreleased](https://github.com/valkyrjaio/phparkitect/compare/v26.6.0...26.x)
+
+## [v26.6.0](https://github.com/valkyrjaio/phparkitect/compare/v26.5.2...v26.6.0) - 2026-08-01
+
+* [Workflow] ci: Update .github workflow refs to v26.18.2 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/ci-phparkitect-php/pull/164
+* [Dependency] build: Update composer dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/ci-phparkitect-php/pull/163
+* [Workflow] ci: Expose the allow diverged input on the rebase to master workflow by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/ci-phparkitect-php/pull/165
+* [Provider] feat: Add a rule that a provider name contains its component by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/ci-phparkitect-php/pull/166
+* [Git] chore: Ignore the .worktrees directory by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/ci-phparkitect-php/pull/168
+* [Dependency] build: Update composer dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/ci-phparkitect-php/pull/167
 
 ## [v26.5.2](https://github.com/valkyrjaio/phparkitect/compare/v26.5.1...v26.5.2) - 2026-08-01
 
