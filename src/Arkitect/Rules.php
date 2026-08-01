@@ -37,6 +37,7 @@ use Attribute;
 use Closure;
 use Throwable;
 use Valkyrja\Application\Provider\Contract\ComponentProviderContract;
+use Valkyrja\Arkitect\Expression\ForClasses\HaveNameContainingComponent;
 use Valkyrja\Arkitect\Expression\ForClasses\NotHaveAttribute;
 use Valkyrja\Cli\Routing\Provider\Contract\CliRouteProviderContract;
 use Valkyrja\Container\Provider\Contract\ServiceProviderContract;
@@ -162,6 +163,12 @@ class Rules
                 ->andThat(new NotHaveNameMatching('*Contract'))
                 ->should(new HaveNameMatching('*Provider'))
                 ->because('All classes in a Provider namespace should be named appropriately');
+
+            $srcRules[] = Rule::allClasses()
+                ->that(new ResideInOneOfTheseNamespaces('*Provider\\'))
+                ->andThat(new NotHaveNameMatching('*Contract'))
+                ->should(new HaveNameContainingComponent())
+                ->because('All providers should be named for the component that they belong to');
 
             $srcRules[] = Rule::allClasses()
                 ->that(new HaveNameMatching('*Factory'))
