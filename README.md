@@ -78,7 +78,7 @@ All classes must not contain an `@author` docblock annotation.
 #### Attributes
 
 | Rule                                                                | Constraint                                   |
-|---------------------------------------------------------------------|----------------------------------------------|
+| ------------------------------------------------------------------- | -------------------------------------------- |
 | Classes with `#[Attribute]` must reside in `*Attribute\` namespaces | Attributes belong in dedicated namespaces    |
 | Classes in `*Attribute\` namespaces must carry `#[Attribute]`       | Only attributes live in attribute namespaces |
 | Classes outside `*Attribute\*` must not carry `#[Attribute]`        | Non-attributes must not be attributed        |
@@ -86,14 +86,14 @@ All classes must not contain an `@author` docblock annotation.
 #### Constants
 
 | Rule                                                                              | Constraint           |
-|-----------------------------------------------------------------------------------|----------------------|
+| --------------------------------------------------------------------------------- | -------------------- |
 | Final classes (excluding `*Security` and `*Provider`) must reside in `*Constant\` | Constants namespace  |
 | Classes in `*Constant\` must be final                                             | Constants are sealed |
 
 #### Providers
 
 | Type                        | Naming               | Namespace    |
-|-----------------------------|----------------------|--------------|
+| --------------------------- | -------------------- | ------------ |
 | `ServiceProviderContract`   | `*ServiceProvider`   | `*Provider\` |
 | `ComponentProviderContract` | `*ComponentProvider` | `*Provider\` |
 | `CliRouteProviderContract`  | `*RouteProvider`     | `*Provider\` |
@@ -104,7 +104,7 @@ All classes must not contain an `@author` docblock annotation.
 #### Factories
 
 | Rule                                                | Constraint                                |
-|-----------------------------------------------------|-------------------------------------------|
+| --------------------------------------------------- | ----------------------------------------- |
 | Classes named `*Factory` must reside in `*Factory\` | Factories belong in factory namespaces    |
 | Classes in `*Factory\` must be named `*Factory`     | Only factories live in factory namespaces |
 
@@ -121,7 +121,7 @@ final.
 #### Exceptions and Throwables
 
 | Rule                                                                                  | Constraint                                       |
-|---------------------------------------------------------------------------------------|--------------------------------------------------|
+| ------------------------------------------------------------------------------------- | ------------------------------------------------ |
 | Classes named `*Exception` must reside in `*Exception\`                               | Exceptions namespace                             |
 | Classes extending `Throwable` must reside in `*Throwable\`                            | Throwable objects belong in throwable namespaces |
 | Classes implementing `Throwable` must be named `*Exception`                           | Throwables are exceptions                        |
@@ -131,7 +131,7 @@ final.
 #### Types, Models, and Entities
 
 | Rule                                                                                        | Constraint         |
-|---------------------------------------------------------------------------------------------|--------------------|
+| ------------------------------------------------------------------------------------------- | ------------------ |
 | Classes extending `Type` (outside Config, Entity, Model namespaces) must reside in `*Type\` | Types namespace    |
 | Classes extending `Model` (outside Config, Entity namespaces) must reside in `*Model\`      | Models namespace   |
 | Classes extending `Entity` must reside in `*Entity\`                                        | Entities namespace |
@@ -139,7 +139,7 @@ final.
 #### Interfaces (Contracts)
 
 | Rule                                                       | Constraint                    |
-|------------------------------------------------------------|-------------------------------|
+| ---------------------------------------------------------- | ----------------------------- |
 | Interfaces must reside in `*Contract\` namespaces          | Contracts namespace           |
 | Classes in `*Contract\` must be interfaces                 | Only interfaces are contracts |
 | Interfaces (except `*Throwable`) must be named `*Contract` | Contract naming convention    |
@@ -148,7 +148,7 @@ final.
 #### Traits
 
 | Rule                                       | Constraint                           |
-|--------------------------------------------|--------------------------------------|
+| ------------------------------------------ | ------------------------------------ |
 | Traits must reside in `*Trait\` namespaces | Traits namespace                     |
 | Classes in `*Trait\` must be traits        | Only traits live in trait namespaces |
 | Traits must not be named `*Trait*`         | No "Trait" in the name               |
@@ -157,7 +157,7 @@ final.
 #### Abstract Classes
 
 | Rule                                                                                                         | Constraint                       |
-|--------------------------------------------------------------------------------------------------------------|----------------------------------|
+| ------------------------------------------------------------------------------------------------------------ | -------------------------------- |
 | Abstract classes (outside `*Factory` and specific routing controller namespaces) must reside in `*Abstract\` | Abstract namespace               |
 | Classes in `*Abstract\` must be abstract                                                                     | Only abstract classes live there |
 | Abstract classes must not be named `*Abstract*`                                                              | No "Abstract" in the name        |
@@ -166,7 +166,7 @@ final.
 #### Enums
 
 | Rule                                                                                                 | Constraint                         |
-|------------------------------------------------------------------------------------------------------|------------------------------------|
+| ---------------------------------------------------------------------------------------------------- | ---------------------------------- |
 | Enums must reside in `*Enum\` namespaces                                                             | Enums namespace                    |
 | Classes in `*Enum\` (outside `Valkyrja\Type\Enum`) must be enums                                     | Only enums live in enum namespaces |
 | Enums must not be named `*Enum*`                                                                     | No "Enum" in enum names            |
@@ -175,7 +175,7 @@ final.
 ### Test Rules
 
 | Rule                                                                                                                                  | Constraint                         |
-|---------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
+| ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
 | All classes must not contain `@author` docblocks                                                                                      | Same as src                        |
 | Test classes (in `*Tests\`, not `*TestCase`, `*AttributeClass`, `*EnvClass`, non-abstract, non-trait, outside `Vendor`) must be final | Tests are sealed                   |
 | Classes in `*Classes\` (non-enum, non-trait) must be named `*Class`                                                                   | Test helper class naming           |
@@ -209,7 +209,7 @@ new NotHaveAttribute(string $attribute)
 ```
 
 | Parameter    | Description                                              |
-|--------------|----------------------------------------------------------|
+| ------------ | -------------------------------------------------------- |
 | `$attribute` | Fully qualified class name of the PHP attribute to check |
 
 **Violation message format:**
@@ -228,7 +228,7 @@ designed to be called from other repositories via `workflow_call`.
 ### Inputs
 
 | Input              | Type    | Default                    | Description                                                                                                                                           |
-|--------------------|---------|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ------------------ | ------- | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `paths`            | string  | —                          | **Required.** YAML filter spec with two keys: `ci` (CI config files that trigger a base-branch fetch) and `files` (all files that trigger the check). |
 | `post-pr-comment`  | boolean | `true`                     | Post a PR comment on failure and remove it on success. Disable when the calling workflow handles its own reporting.                                   |
 | `composer-options` | string  | `''`                       | Extra flags passed to every `composer install` step (e.g. `--ignore-platform-req=ext-openswoole`).                                                    |
@@ -281,9 +281,6 @@ Licensed under the [MIT license][MIT license url]. See
 [`LICENSE.md`](./LICENSE.md).
 
 [contributing url]: https://github.com/valkyrjaio/.github/blob/master/CONTRIBUTING.md
-
 [vocabulary url]: https://github.com/valkyrjaio/.github/blob/master/VOCABULARY.md
-
 [security vulnerabilities url]: https://github.com/valkyrjaio/.github/blob/master/SECURITY.md
-
 [MIT license url]: https://opensource.org/licenses/MIT
