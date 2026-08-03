@@ -1,6 +1,16 @@
 # Release Notes for 26.x
 
-## [Unreleased](https://github.com/valkyrjaio/phparkitect/compare/v26.6.1...26.x)
+## [Unreleased](https://github.com/valkyrjaio/phparkitect/compare/v26.7.0...26.x)
+
+## [v26.7.0](https://github.com/valkyrjaio/phparkitect/compare/v26.6.1...v26.7.0) - 2026-08-03
+
+* [PhpCsFixer] refactor: Build the copyright header from the package name by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/ci-phparkitect-php/pull/180
+* [Copyright] ci: Add the copyright header check by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/ci-phparkitect-php/pull/181
+* [Workflow] ci: Update .github workflow refs to v26.22.0 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/ci-phparkitect-php/pull/182
+* [Composer] build!: Rename the package to valkyrja/ci-phparkitect by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/ci-phparkitect-php/pull/183
+* [Workflow] ci: Update .github workflow refs to v26.23.0 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/ci-phparkitect-php/pull/184
+* [Dependency] build: Require the renamed CI tool packages by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/ci-phparkitect-php/pull/185
+* [Dependency] build: Update composer dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/ci-phparkitect-php/pull/186
 
 ## [v26.6.1](https://github.com/valkyrjaio/phparkitect/compare/v26.6.0...v26.6.1) - 2026-08-02
 
