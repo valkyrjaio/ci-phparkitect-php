@@ -1,5 +1,5 @@
 {
-  "name"              : "valkyrja/phparkitect",
+  "name"              : "valkyrja/ci-phparkitect",
   "type"              : "project",
   "description"       : "PHPArkitect for the Valkyrja Project.",
   "homepage"          : "https://www.valkyrja.io/",
