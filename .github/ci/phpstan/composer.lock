@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a805023e665f9f159a334a36301d2991",
+    "content-hash": "50d15a83aaa550fd3be438fb91e45bd8",
     "packages": [],
     "packages-dev": [
         {
@@ -335,16 +335,16 @@
         },
         {
             "name": "valkyrja/ci-phpstan",
-            "version": "v26.3.7",
+            "version": "v26.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/ci-phpstan-php.git",
-                "reference": "0c44074e182c4c4a6a2e9461543d3c7c280ffb7f"
+                "reference": "be9fbb8919c3175984b65cb2eb18f4fb5984213a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/ci-phpstan-php/zipball/0c44074e182c4c4a6a2e9461543d3c7c280ffb7f",
-                "reference": "0c44074e182c4c4a6a2e9461543d3c7c280ffb7f",
+                "url": "https://api.github.com/repos/valkyrjaio/ci-phpstan-php/zipball/be9fbb8919c3175984b65cb2eb18f4fb5984213a",
+                "reference": "be9fbb8919c3175984b65cb2eb18f4fb5984213a",
                 "shasum": ""
             },
             "require": {
@@ -376,9 +376,9 @@
             ],
             "support": {
                 "issues": "https://github.com/valkyrjaio/ci-phpstan-php/issues",
-                "source": "https://github.com/valkyrjaio/ci-phpstan-php/tree/v26.3.7"
+                "source": "https://github.com/valkyrjaio/ci-phpstan-php/tree/v26.3.8"
             },
-            "time": "2026-08-10T11:02:15+00:00"
+            "time": "2026-08-11T10:45:30+00:00"
         },
         {
             "name": "valkyrja/valkyrja",
@@ -386,12 +386,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja-php.git",
-                "reference": "170420b3826ddf967d35372d82a1e24bdac3bc34"
+                "reference": "7c650c9a7089d4fd0a2ca43e3d03dcb02d27bb6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/170420b3826ddf967d35372d82a1e24bdac3bc34",
-                "reference": "170420b3826ddf967d35372d82a1e24bdac3bc34",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/7c650c9a7089d4fd0a2ca43e3d03dcb02d27bb6c",
+                "reference": "7c650c9a7089d4fd0a2ca43e3d03dcb02d27bb6c",
                 "shasum": ""
             },
             "require": {
@@ -478,7 +478,7 @@
                 "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
                 "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
             },
-            "time": "2026-08-11T06:02:38+00:00"
+            "time": "2026-08-11T12:12:00+00:00"
         }
     ],
     "aliases": [],

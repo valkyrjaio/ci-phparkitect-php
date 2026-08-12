@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "363a6d45efd95faffcebb3ba69931dbc",
+    "content-hash": "b3c92910feec7fb2c4b0f4ea7f000e1e",
     "packages": [],
     "packages-dev": [
         {
@@ -3364,16 +3364,16 @@
         },
         {
             "name": "valkyrja/ci-psalm",
-            "version": "v26.3.7",
+            "version": "v26.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/ci-psalm-php.git",
-                "reference": "9cb7fc6584e2f7a915d88b1c74b187ca38d58126"
+                "reference": "4d3f5ea6ba2507955d1239fc60a3dadd1e8f3b16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/ci-psalm-php/zipball/9cb7fc6584e2f7a915d88b1c74b187ca38d58126",
-                "reference": "9cb7fc6584e2f7a915d88b1c74b187ca38d58126",
+                "url": "https://api.github.com/repos/valkyrjaio/ci-psalm-php/zipball/4d3f5ea6ba2507955d1239fc60a3dadd1e8f3b16",
+                "reference": "4d3f5ea6ba2507955d1239fc60a3dadd1e8f3b16",
                 "shasum": ""
             },
             "require": {
@@ -3405,9 +3405,9 @@
             ],
             "support": {
                 "issues": "https://github.com/valkyrjaio/ci-psalm-php/issues",
-                "source": "https://github.com/valkyrjaio/ci-psalm-php/tree/v26.3.7"
+                "source": "https://github.com/valkyrjaio/ci-psalm-php/tree/v26.3.8"
             },
-            "time": "2026-08-10T11:02:13+00:00"
+            "time": "2026-08-11T10:44:54+00:00"
         },
         {
             "name": "valkyrja/valkyrja",
@@ -3415,12 +3415,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja-php.git",
-                "reference": "170420b3826ddf967d35372d82a1e24bdac3bc34"
+                "reference": "7c650c9a7089d4fd0a2ca43e3d03dcb02d27bb6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/170420b3826ddf967d35372d82a1e24bdac3bc34",
-                "reference": "170420b3826ddf967d35372d82a1e24bdac3bc34",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/7c650c9a7089d4fd0a2ca43e3d03dcb02d27bb6c",
+                "reference": "7c650c9a7089d4fd0a2ca43e3d03dcb02d27bb6c",
                 "shasum": ""
             },
             "require": {
@@ -3507,7 +3507,7 @@
                 "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
                 "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
             },
-            "time": "2026-08-11T06:02:38+00:00"
+            "time": "2026-08-11T12:12:00+00:00"
         },
         {
             "name": "vimeo/psalm",
