@@ -3364,16 +3364,16 @@
         },
         {
             "name": "valkyrja/ci-psalm",
-            "version": "v26.3.11",
+            "version": "v26.3.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/ci-psalm-php.git",
-                "reference": "64d248570afb5ae9fdb83244c783892c7c944062"
+                "reference": "4f73f78ee9e20b599fbcf82b514d4708f8d5ef90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/ci-psalm-php/zipball/64d248570afb5ae9fdb83244c783892c7c944062",
-                "reference": "64d248570afb5ae9fdb83244c783892c7c944062",
+                "url": "https://api.github.com/repos/valkyrjaio/ci-psalm-php/zipball/4f73f78ee9e20b599fbcf82b514d4708f8d5ef90",
+                "reference": "4f73f78ee9e20b599fbcf82b514d4708f8d5ef90",
                 "shasum": ""
             },
             "require": {
@@ -3405,9 +3405,9 @@
             ],
             "support": {
                 "issues": "https://github.com/valkyrjaio/ci-psalm-php/issues",
-                "source": "https://github.com/valkyrjaio/ci-psalm-php/tree/v26.3.11"
+                "source": "https://github.com/valkyrjaio/ci-psalm-php/tree/v26.3.12"
             },
-            "time": "2026-08-14T10:53:55+00:00"
+            "time": "2026-08-15T11:22:19+00:00"
         },
         {
             "name": "valkyrja/valkyrja",
@@ -3415,12 +3415,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja-php.git",
-                "reference": "edff6e62863ca81081264443136f3032bb06f2d5"
+                "reference": "0c79a7958b2fccd174fa1996f12936473be2054e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/edff6e62863ca81081264443136f3032bb06f2d5",
-                "reference": "edff6e62863ca81081264443136f3032bb06f2d5",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/0c79a7958b2fccd174fa1996f12936473be2054e",
+                "reference": "0c79a7958b2fccd174fa1996f12936473be2054e",
                 "shasum": ""
             },
             "require": {
@@ -3440,7 +3440,7 @@
                 "mailgun/mailgun-php": "<4.5.1",
                 "monolog/monolog": "<3.10.0",
                 "phpmailer/phpmailer": "<7.1.1",
-                "predis/predis": "<3.5.1",
+                "predis/predis": "<3.6.0",
                 "pusher/pusher-php-server": "<7.3.0",
                 "twig/twig": "<3.28.0",
                 "vonage/client-core": "<4.14.0"
@@ -3454,7 +3454,7 @@
                 "mailgun/mailgun-php": "^4.5.1",
                 "monolog/monolog": "^3.10.0",
                 "phpmailer/phpmailer": "^7.1.1",
-                "predis/predis": "^3.5.1",
+                "predis/predis": "^3.6.0",
                 "pusher/pusher-php-server": "^7.3.0",
                 "twig/twig": "^3.28.0",
                 "vonage/client-core": "^4.14.0"
@@ -3474,7 +3474,7 @@
                 "monolog/monolog": "Required to use the default Log adapter (^3.10.0).",
                 "openswoole/core": "Required to use the OpenSwoole worker entry point (^26.2.0).",
                 "phpmailer/phpmailer": "Required to use the default Mail adapter (^7.1.1).",
-                "predis/predis": "Required to use the Redis Cache store (^3.5.1).",
+                "predis/predis": "Required to use the Redis Cache store (^3.6.0).",
                 "pusher/pusher-php-server": "Required to use the Pusher Broadcast adapter (^7.3.0).",
                 "spiral/roadrunner-http": "Required to use the RoadRunner worker entry point (^4.1.0).",
                 "twig/twig": "Required to use the Twig View engine (^3.28.0).",
@@ -3507,7 +3507,7 @@
                 "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
                 "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
             },
-            "time": "2026-08-15T10:51:46+00:00"
+            "time": "2026-08-15T12:55:57+00:00"
         },
         {
             "name": "vimeo/psalm",
