@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6dc498cbb81036014ccf93548ac28f61",
+    "content-hash": "a2a100c181084111a3f7c1608354d838",
     "packages": [],
     "packages-dev": [
         {
@@ -3415,12 +3415,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja-php.git",
-                "reference": "61ed938b49a733b9d75bf32d6299d7c54b8992dd"
+                "reference": "6138f17c1d1016881aa5547c0e169f1bcde05afb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/61ed938b49a733b9d75bf32d6299d7c54b8992dd",
-                "reference": "61ed938b49a733b9d75bf32d6299d7c54b8992dd",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/6138f17c1d1016881aa5547c0e169f1bcde05afb",
+                "reference": "6138f17c1d1016881aa5547c0e169f1bcde05afb",
                 "shasum": ""
             },
             "require": {
@@ -3435,8 +3435,8 @@
                 "filp/whoops": "<2.18.4",
                 "firebase/php-jwt": "<7.1.0",
                 "guzzlehttp/guzzle": "<7.15.3",
-                "league/flysystem": "<3.35.2",
-                "league/flysystem-aws-s3-v3": "<3.35.2",
+                "league/flysystem": "<3.35.3",
+                "league/flysystem-aws-s3-v3": "<3.35.3",
                 "mailgun/mailgun-php": "<4.5.1",
                 "monolog/monolog": "<3.10.0",
                 "phpmailer/phpmailer": "<7.1.1",
@@ -3449,8 +3449,8 @@
                 "filp/whoops": "^2.18.4",
                 "firebase/php-jwt": "^7.1.0",
                 "guzzlehttp/guzzle": "^7.15.3",
-                "league/flysystem": "^3.35.2",
-                "league/flysystem-aws-s3-v3": "^3.35.2",
+                "league/flysystem": "^3.35.3",
+                "league/flysystem-aws-s3-v3": "^3.35.3",
                 "mailgun/mailgun-php": "^4.5.1",
                 "monolog/monolog": "^3.10.0",
                 "phpmailer/phpmailer": "^7.1.1",
@@ -3468,8 +3468,8 @@
                 "filp/whoops": "Required to use the default Throwable handler (^2.18.4)",
                 "firebase/php-jwt": "Required to use the default Jwt adapter (^7.1.0)",
                 "guzzlehttp/guzzle": "Required to use the default Client adapter (^7.15.3).",
-                "league/flysystem": "Required to use the default Filesystem adapter (^3.35.2).",
-                "league/flysystem-aws-s3-v3": "Required to use the s3 Filesystem adapter (^3.35.2)",
+                "league/flysystem": "Required to use the default Filesystem adapter (^3.35.3).",
+                "league/flysystem-aws-s3-v3": "Required to use the s3 Filesystem adapter (^3.35.3)",
                 "mailgun/mailgun-php": "Required to use the Mailgun Mail adapter (^4.5.1).",
                 "monolog/monolog": "Required to use the default Log adapter (^3.10.0).",
                 "openswoole/core": "Required to use the OpenSwoole worker entry point (^26.2.0).",
@@ -3507,7 +3507,7 @@
                 "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
                 "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
             },
-            "time": "2026-08-22T12:56:55+00:00"
+            "time": "2026-08-23T05:03:30+00:00"
         },
         {
             "name": "vimeo/psalm",
