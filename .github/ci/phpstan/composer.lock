@@ -335,16 +335,16 @@
         },
         {
             "name": "valkyrja/ci-phpstan",
-            "version": "v26.3.28",
+            "version": "v26.3.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/ci-phpstan-php.git",
-                "reference": "8623783f23dd92b54661a42952a2e423121896a7"
+                "reference": "1043e72030e89beb6b93f36acbdef884531f2afd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/ci-phpstan-php/zipball/8623783f23dd92b54661a42952a2e423121896a7",
-                "reference": "8623783f23dd92b54661a42952a2e423121896a7",
+                "url": "https://api.github.com/repos/valkyrjaio/ci-phpstan-php/zipball/1043e72030e89beb6b93f36acbdef884531f2afd",
+                "reference": "1043e72030e89beb6b93f36acbdef884531f2afd",
                 "shasum": ""
             },
             "require": {
@@ -376,9 +376,9 @@
             ],
             "support": {
                 "issues": "https://github.com/valkyrjaio/ci-phpstan-php/issues",
-                "source": "https://github.com/valkyrjaio/ci-phpstan-php/tree/v26.3.28"
+                "source": "https://github.com/valkyrjaio/ci-phpstan-php/tree/v26.3.29"
             },
-            "time": "2026-09-01T15:25:12+00:00"
+            "time": "2026-09-02T14:56:20+00:00"
         },
         {
             "name": "valkyrja/valkyrja",
@@ -386,12 +386,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja-php.git",
-                "reference": "ee1ce3a97fc3a47ae1605ba5282fdd5e4c34cc1b"
+                "reference": "3d5dd4fac65c39263b26e3aa5101bf5c295b1ee4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/ee1ce3a97fc3a47ae1605ba5282fdd5e4c34cc1b",
-                "reference": "ee1ce3a97fc3a47ae1605ba5282fdd5e4c34cc1b",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/3d5dd4fac65c39263b26e3aa5101bf5c295b1ee4",
+                "reference": "3d5dd4fac65c39263b26e3aa5101bf5c295b1ee4",
                 "shasum": ""
             },
             "require": {
@@ -408,8 +408,8 @@
                 "guzzlehttp/guzzle": "<7.15.5",
                 "league/flysystem": "<3.36.0",
                 "league/flysystem-aws-s3-v3": "<3.35.3",
-                "mailgun/mailgun-php": "<4.5.1",
-                "monolog/monolog": "<3.10.0",
+                "mailgun/mailgun-php": "<4.5.2",
+                "monolog/monolog": "<3.11.0",
                 "phpmailer/phpmailer": "<7.1.1",
                 "predis/predis": "<3.6.0",
                 "pusher/pusher-php-server": "<7.3.0",
@@ -422,8 +422,8 @@
                 "guzzlehttp/guzzle": "^7.15.5",
                 "league/flysystem": "^3.36.0",
                 "league/flysystem-aws-s3-v3": "^3.35.3",
-                "mailgun/mailgun-php": "^4.5.1",
-                "monolog/monolog": "^3.10.0",
+                "mailgun/mailgun-php": "^4.5.2",
+                "monolog/monolog": "^3.11.0",
                 "phpmailer/phpmailer": "^7.1.1",
                 "predis/predis": "^3.6.0",
                 "pusher/pusher-php-server": "^7.3.0",
@@ -441,8 +441,8 @@
                 "guzzlehttp/guzzle": "Required to use the default Client adapter (^7.15.5).",
                 "league/flysystem": "Required to use the default Filesystem adapter (^3.36.0).",
                 "league/flysystem-aws-s3-v3": "Required to use the s3 Filesystem adapter (^3.35.3)",
-                "mailgun/mailgun-php": "Required to use the Mailgun Mail adapter (^4.5.1).",
-                "monolog/monolog": "Required to use the default Log adapter (^3.10.0).",
+                "mailgun/mailgun-php": "Required to use the Mailgun Mail adapter (^4.5.2).",
+                "monolog/monolog": "Required to use the default Log adapter (^3.11.0).",
                 "openswoole/core": "Required to use the OpenSwoole worker entry point (^26.2.0).",
                 "phpmailer/phpmailer": "Required to use the default Mail adapter (^7.1.1).",
                 "predis/predis": "Required to use the Redis Cache store (^3.6.0).",
@@ -478,7 +478,7 @@
                 "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
                 "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
             },
-            "time": "2026-09-02T11:38:11+00:00"
+            "time": "2026-09-03T05:25:49+00:00"
         }
     ],
     "aliases": [],
