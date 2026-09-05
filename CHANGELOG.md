@@ -1,6 +1,11 @@
 # Release Notes for 26.x
 
-## [Unreleased](https://github.com/valkyrjaio/phparkitect/compare/v26.7.31...26.x)
+## [Unreleased](https://github.com/valkyrjaio/phparkitect/compare/v26.7.32...26.x)
+
+## [v26.7.32](https://github.com/valkyrjaio/phparkitect/compare/v26.7.31...v26.7.32) - 2026-09-05
+
+* [Dependency] build: Update composer dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/ci-phparkitect-php/pull/268
+* [Dependency] build: Update composer dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/ci-phparkitect-php/pull/269
 
 ## [v26.7.31](https://github.com/valkyrjaio/phparkitect/compare/v26.7.30...v26.7.31) - 2026-09-04
 
