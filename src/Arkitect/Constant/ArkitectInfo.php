@@ -19,12 +19,12 @@ final class ArkitectInfo
      *
      * @var non-empty-string
      */
-    public const string VERSION = '26.7.44';
+    public const string VERSION = '26.7.45';
 
     /**
      * The Arkitect package version build datetime.
      *
      * @var non-empty-string
      */
-    public const string VERSION_BUILD_DATE_TIME = 'September 18 2026 07:43:51 MST';
+    public const string VERSION_BUILD_DATE_TIME = 'September 19 2026 07:05:25 MST';
 }
