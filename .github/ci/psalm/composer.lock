@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "49210ba3950e1b9be63f91601e32b0a1",
+    "content-hash": "c8359cd86f2eb8af888d8a29e60d520c",
     "packages": [],
     "packages-dev": [
         {
@@ -3415,12 +3415,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja-php.git",
-                "reference": "91e26c850bb7b36b78bcadf8b0db1b55e82e34ff"
+                "reference": "21a44d565b84d8b19eb64692dfae9866c477782a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/91e26c850bb7b36b78bcadf8b0db1b55e82e34ff",
-                "reference": "91e26c850bb7b36b78bcadf8b0db1b55e82e34ff",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/21a44d565b84d8b19eb64692dfae9866c477782a",
+                "reference": "21a44d565b84d8b19eb64692dfae9866c477782a",
                 "shasum": ""
             },
             "require": {
@@ -3507,20 +3507,20 @@
                 "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
                 "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
             },
-            "time": "2026-09-20T15:59:31+00:00"
+            "time": "2026-09-21T14:28:11+00:00"
         },
         {
             "name": "vimeo/psalm",
-            "version": "6.17.2",
+            "version": "6.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "dd625545733d24633e5d386a26c13004dae80e19"
+                "reference": "536dd6236b39a5115385b0307b42d6d1ad431a02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/dd625545733d24633e5d386a26c13004dae80e19",
-                "reference": "dd625545733d24633e5d386a26c13004dae80e19",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/536dd6236b39a5115385b0307b42d6d1ad431a02",
+                "reference": "536dd6236b39a5115385b0307b42d6d1ad431a02",
                 "shasum": ""
             },
             "require": {
@@ -3625,7 +3625,7 @@
                 "issues": "https://github.com/vimeo/psalm/issues",
                 "source": "https://github.com/vimeo/psalm"
             },
-            "time": "2026-09-15T12:34:23+00:00"
+            "time": "2026-09-21T08:32:57+00:00"
         },
         {
             "name": "webmozart/assert",
