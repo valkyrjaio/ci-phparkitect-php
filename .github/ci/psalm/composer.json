@@ -3,7 +3,7 @@
     "php" : ">=8.4"
   },
   "require-dev"       : {
-    "valkyrja/ci-psalm"    : "^26.3.49",
+    "valkyrja/ci-psalm"    : "^26.3.50",
     "valkyrja/valkyrja" : "26.x-dev"
   },
   "scripts"           : {
