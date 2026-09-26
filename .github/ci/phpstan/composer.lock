@@ -335,21 +335,21 @@
         },
         {
             "name": "valkyrja/ci-phpstan",
-            "version": "v26.3.49",
+            "version": "v26.3.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/ci-phpstan-php.git",
-                "reference": "f6b7dd47279e51e5cb4fa894c69c9d04d3197475"
+                "reference": "d1238ebaf640ac92c482582765b1b62abb815e5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/ci-phpstan-php/zipball/f6b7dd47279e51e5cb4fa894c69c9d04d3197475",
-                "reference": "f6b7dd47279e51e5cb4fa894c69c9d04d3197475",
+                "url": "https://api.github.com/repos/valkyrjaio/ci-phpstan-php/zipball/d1238ebaf640ac92c482582765b1b62abb815e5e",
+                "reference": "d1238ebaf640ac92c482582765b1b62abb815e5e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.4",
-                "phpstan/phpstan": "^2.2.15"
+                "phpstan/phpstan": "^2.2.16"
             },
             "type": "project",
             "autoload": {
@@ -376,9 +376,9 @@
             ],
             "support": {
                 "issues": "https://github.com/valkyrjaio/ci-phpstan-php/issues",
-                "source": "https://github.com/valkyrjaio/ci-phpstan-php/tree/v26.3.49"
+                "source": "https://github.com/valkyrjaio/ci-phpstan-php/tree/v26.3.50"
             },
-            "time": "2026-09-24T15:46:48+00:00"
+            "time": "2026-09-25T15:48:35+00:00"
         },
         {
             "name": "valkyrja/valkyrja",
@@ -386,12 +386,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja-php.git",
-                "reference": "535c41edfe043ed917715bd986931e3db309d00f"
+                "reference": "ba0bfed21bea1841778db6461eef3054a401cfa9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/535c41edfe043ed917715bd986931e3db309d00f",
-                "reference": "535c41edfe043ed917715bd986931e3db309d00f",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/ba0bfed21bea1841778db6461eef3054a401cfa9",
+                "reference": "ba0bfed21bea1841778db6461eef3054a401cfa9",
                 "shasum": ""
             },
             "require": {
@@ -413,7 +413,7 @@
                 "phpmailer/phpmailer": "<7.1.1",
                 "predis/predis": "<3.6.1",
                 "pusher/pusher-php-server": "<7.3.0",
-                "twig/twig": "<3.29.0",
+                "twig/twig": "<3.30.0",
                 "vonage/client-core": "<4.14.0"
             },
             "require-dev": {
@@ -427,7 +427,7 @@
                 "phpmailer/phpmailer": "^7.1.1",
                 "predis/predis": "^3.6.1",
                 "pusher/pusher-php-server": "^7.3.0",
-                "twig/twig": "^3.29.0",
+                "twig/twig": "^3.30.0",
                 "vonage/client-core": "^4.14.0"
             },
             "suggest": {
@@ -448,7 +448,7 @@
                 "predis/predis": "Required to use the Redis Cache store (^3.6.1).",
                 "pusher/pusher-php-server": "Required to use the Pusher Broadcast adapter (^7.3.0).",
                 "spiral/roadrunner-http": "Required to use the RoadRunner worker entry point (^4.1.0).",
-                "twig/twig": "Required to use the Twig View engine (^3.29.0).",
+                "twig/twig": "Required to use the Twig View engine (^3.30.0).",
                 "vonage/client-core": "Required to use the default SMS adapter (^4.14.0)."
             },
             "default-branch": true,
@@ -478,7 +478,7 @@
                 "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
                 "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
             },
-            "time": "2026-09-25T12:56:08+00:00"
+            "time": "2026-09-25T17:05:09+00:00"
         }
     ],
     "aliases": [],
