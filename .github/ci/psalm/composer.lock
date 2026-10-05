@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b20cca7d85d880d5644f2c0a55940f5",
+    "content-hash": "b36c77a765e286b5633a47d1cdcf0be0",
     "packages": [],
     "packages-dev": [
         {
@@ -902,16 +902,16 @@
         },
         {
             "name": "composer/semver",
-            "version": "3.5.0",
+            "version": "3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/semver.git",
-                "reference": "f7a296f4c4cf8cb8bb83e35d6951a406bb11afa5"
+                "reference": "528948210cc46f967a4b98e83b19e76f2b504993"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/semver/zipball/f7a296f4c4cf8cb8bb83e35d6951a406bb11afa5",
-                "reference": "f7a296f4c4cf8cb8bb83e35d6951a406bb11afa5",
+                "url": "https://api.github.com/repos/composer/semver/zipball/528948210cc46f967a4b98e83b19e76f2b504993",
+                "reference": "528948210cc46f967a4b98e83b19e76f2b504993",
                 "shasum": ""
             },
             "require": {
@@ -963,7 +963,7 @@
             "support": {
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/semver/issues",
-                "source": "https://github.com/composer/semver/tree/3.5.0"
+                "source": "https://github.com/composer/semver/tree/3.5.1"
             },
             "funding": [
                 {
@@ -975,7 +975,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-09-24T14:38:51+00:00"
+            "time": "2026-10-05T13:12:12+00:00"
         },
         {
             "name": "composer/xdebug-handler",
@@ -3421,12 +3421,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja-php.git",
-                "reference": "819afc87dab6ce3bf9714847560bba48c6ba1a63"
+                "reference": "1de76f3eec8d47bd8fc7464d0daa03c2e059ee23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/819afc87dab6ce3bf9714847560bba48c6ba1a63",
-                "reference": "819afc87dab6ce3bf9714847560bba48c6ba1a63",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/1de76f3eec8d47bd8fc7464d0daa03c2e059ee23",
+                "reference": "1de76f3eec8d47bd8fc7464d0daa03c2e059ee23",
                 "shasum": ""
             },
             "require": {
@@ -3513,7 +3513,7 @@
                 "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
                 "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
             },
-            "time": "2026-10-04T16:49:17+00:00"
+            "time": "2026-10-05T17:19:43+00:00"
         },
         {
             "name": "vimeo/psalm",
