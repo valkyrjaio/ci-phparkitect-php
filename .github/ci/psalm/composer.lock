@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b36c77a765e286b5633a47d1cdcf0be0",
+    "content-hash": "b88232ea22bca81520452232b6c627e2",
     "packages": [],
     "packages-dev": [
         {
@@ -3370,16 +3370,16 @@
         },
         {
             "name": "valkyrja/ci-psalm",
-            "version": "v26.3.60",
+            "version": "v26.3.61",
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/ci-psalm-php.git",
-                "reference": "142110102d80f641b514fc82916cf886397d1e31"
+                "reference": "45e1a6027e3a4e5fd11402858d38d13b97413269"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/ci-psalm-php/zipball/142110102d80f641b514fc82916cf886397d1e31",
-                "reference": "142110102d80f641b514fc82916cf886397d1e31",
+                "url": "https://api.github.com/repos/valkyrjaio/ci-psalm-php/zipball/45e1a6027e3a4e5fd11402858d38d13b97413269",
+                "reference": "45e1a6027e3a4e5fd11402858d38d13b97413269",
                 "shasum": ""
             },
             "require": {
@@ -3411,9 +3411,9 @@
             ],
             "support": {
                 "issues": "https://github.com/valkyrjaio/ci-psalm-php/issues",
-                "source": "https://github.com/valkyrjaio/ci-psalm-php/tree/v26.3.60"
+                "source": "https://github.com/valkyrjaio/ci-psalm-php/tree/v26.3.61"
             },
-            "time": "2026-10-04T15:38:33+00:00"
+            "time": "2026-10-06T17:12:35+00:00"
         },
         {
             "name": "valkyrja/valkyrja",
@@ -3421,12 +3421,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja-php.git",
-                "reference": "32d5c0ecf1e5ffca05edb64066d65306e368fb84"
+                "reference": "d74585061bdb403c7c47a1ba521f7678568f9ddf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/32d5c0ecf1e5ffca05edb64066d65306e368fb84",
-                "reference": "32d5c0ecf1e5ffca05edb64066d65306e368fb84",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/d74585061bdb403c7c47a1ba521f7678568f9ddf",
+                "reference": "d74585061bdb403c7c47a1ba521f7678568f9ddf",
                 "shasum": ""
             },
             "require": {
@@ -3513,20 +3513,20 @@
                 "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
                 "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
             },
-            "time": "2026-10-05T23:18:34+00:00"
+            "time": "2026-10-06T18:18:50+00:00"
         },
         {
             "name": "vimeo/psalm",
-            "version": "6.19.1",
+            "version": "6.19.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "e2ca44251c1f1aa2e35452d426895746b47de64e"
+                "reference": "fa716e443b23e6fa35bf58907e67ca692ec3c00a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/e2ca44251c1f1aa2e35452d426895746b47de64e",
-                "reference": "e2ca44251c1f1aa2e35452d426895746b47de64e",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/fa716e443b23e6fa35bf58907e67ca692ec3c00a",
+                "reference": "fa716e443b23e6fa35bf58907e67ca692ec3c00a",
                 "shasum": ""
             },
             "require": {
@@ -3631,7 +3631,7 @@
                 "issues": "https://github.com/vimeo/psalm/issues",
                 "source": "https://github.com/vimeo/psalm"
             },
-            "time": "2026-09-29T09:38:04+00:00"
+            "time": "2026-10-07T13:43:21+00:00"
         },
         {
             "name": "webmozart/assert",
