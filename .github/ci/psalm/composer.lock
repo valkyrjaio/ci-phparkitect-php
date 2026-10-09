@@ -3421,12 +3421,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja-php.git",
-                "reference": "ed94fee12cdc2cc14992b2c17f67476f0f953762"
+                "reference": "5fc8c154a1f6eba6596e5c7cddcd5e2dc5b9810f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/ed94fee12cdc2cc14992b2c17f67476f0f953762",
-                "reference": "ed94fee12cdc2cc14992b2c17f67476f0f953762",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/5fc8c154a1f6eba6596e5c7cddcd5e2dc5b9810f",
+                "reference": "5fc8c154a1f6eba6596e5c7cddcd5e2dc5b9810f",
                 "shasum": ""
             },
             "require": {
@@ -3513,20 +3513,20 @@
                 "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
                 "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
             },
-            "time": "2026-10-09T05:15:07+00:00"
+            "time": "2026-10-09T17:09:49+00:00"
         },
         {
             "name": "vimeo/psalm",
-            "version": "6.19.2",
+            "version": "6.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "fa716e443b23e6fa35bf58907e67ca692ec3c00a"
+                "reference": "804f03c0c183d149fcd4b8c7c0c9b3fbf836d34c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/fa716e443b23e6fa35bf58907e67ca692ec3c00a",
-                "reference": "fa716e443b23e6fa35bf58907e67ca692ec3c00a",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/804f03c0c183d149fcd4b8c7c0c9b3fbf836d34c",
+                "reference": "804f03c0c183d149fcd4b8c7c0c9b3fbf836d34c",
                 "shasum": ""
             },
             "require": {
@@ -3631,7 +3631,7 @@
                 "issues": "https://github.com/vimeo/psalm/issues",
                 "source": "https://github.com/vimeo/psalm"
             },
-            "time": "2026-10-07T13:43:21+00:00"
+            "time": "2026-10-09T15:20:18+00:00"
         },
         {
             "name": "webmozart/assert",
