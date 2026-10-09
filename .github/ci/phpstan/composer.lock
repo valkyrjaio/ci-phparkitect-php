@@ -9,11 +9,11 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "2.3.0",
+            "version": "2.3.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/b1f9890d9af53a25c58129e78f0aadd31f90d7f4",
-                "reference": "b1f9890d9af53a25c58129e78f0aadd31f90d7f4",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/6155239b488e95d26d1ebd95c6b4bb294d7f09db",
+                "reference": "6155239b488e95d26d1ebd95c6b4bb294d7f09db",
                 "shasum": ""
             },
             "require": {
@@ -69,7 +69,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-06T06:15:36+00:00"
+            "time": "2026-10-08T21:09:11+00:00"
         },
         {
             "name": "psr/container",
@@ -335,16 +335,16 @@
         },
         {
             "name": "valkyrja/ci-phpstan",
-            "version": "v26.3.61",
+            "version": "v26.3.62",
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/ci-phpstan-php.git",
-                "reference": "0d0b78fc0d3dde3a50bd3d59416f09857ab87cd6"
+                "reference": "9f9fe844c07b7ea11f09e00b2a3da2a73561e6bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/ci-phpstan-php/zipball/0d0b78fc0d3dde3a50bd3d59416f09857ab87cd6",
-                "reference": "0d0b78fc0d3dde3a50bd3d59416f09857ab87cd6",
+                "url": "https://api.github.com/repos/valkyrjaio/ci-phpstan-php/zipball/9f9fe844c07b7ea11f09e00b2a3da2a73561e6bc",
+                "reference": "9f9fe844c07b7ea11f09e00b2a3da2a73561e6bc",
                 "shasum": ""
             },
             "require": {
@@ -376,9 +376,9 @@
             ],
             "support": {
                 "issues": "https://github.com/valkyrjaio/ci-phpstan-php/issues",
-                "source": "https://github.com/valkyrjaio/ci-phpstan-php/tree/v26.3.61"
+                "source": "https://github.com/valkyrjaio/ci-phpstan-php/tree/v26.3.62"
             },
-            "time": "2026-10-07T17:40:00+00:00"
+            "time": "2026-10-08T17:43:33+00:00"
         },
         {
             "name": "valkyrja/valkyrja",
@@ -386,12 +386,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja-php.git",
-                "reference": "c48cb362fae1c999d31a6f5bcca83c3a1c8755d0"
+                "reference": "ed94fee12cdc2cc14992b2c17f67476f0f953762"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/c48cb362fae1c999d31a6f5bcca83c3a1c8755d0",
-                "reference": "c48cb362fae1c999d31a6f5bcca83c3a1c8755d0",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/ed94fee12cdc2cc14992b2c17f67476f0f953762",
+                "reference": "ed94fee12cdc2cc14992b2c17f67476f0f953762",
                 "shasum": ""
             },
             "require": {
@@ -411,7 +411,7 @@
                 "mailgun/mailgun-php": "<4.5.2",
                 "monolog/monolog": "<3.12.1",
                 "phpmailer/phpmailer": "<7.1.1",
-                "predis/predis": "<3.6.1",
+                "predis/predis": "<3.7.0",
                 "pusher/pusher-php-server": "<7.3.0",
                 "twig/twig": "<3.30.0",
                 "vonage/client-core": "<4.14.0"
@@ -425,7 +425,7 @@
                 "mailgun/mailgun-php": "^4.5.2",
                 "monolog/monolog": "^3.12.1",
                 "phpmailer/phpmailer": "^7.1.1",
-                "predis/predis": "^3.6.1",
+                "predis/predis": "^3.7.0",
                 "pusher/pusher-php-server": "^7.3.0",
                 "twig/twig": "^3.30.0",
                 "vonage/client-core": "^4.14.0"
@@ -445,7 +445,7 @@
                 "monolog/monolog": "Required to use the default Log adapter (^3.12.1).",
                 "openswoole/core": "Required to use the OpenSwoole worker entry point (^26.2.0).",
                 "phpmailer/phpmailer": "Required to use the default Mail adapter (^7.1.1).",
-                "predis/predis": "Required to use the Redis Cache store (^3.6.1).",
+                "predis/predis": "Required to use the Redis Cache store (^3.7.0).",
                 "pusher/pusher-php-server": "Required to use the Pusher Broadcast adapter (^7.3.0).",
                 "spiral/roadrunner-http": "Required to use the RoadRunner worker entry point (^4.1.0).",
                 "twig/twig": "Required to use the Twig View engine (^3.30.0).",
@@ -478,7 +478,7 @@
                 "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
                 "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
             },
-            "time": "2026-10-08T17:21:02+00:00"
+            "time": "2026-10-09T05:15:07+00:00"
         }
     ],
     "aliases": [],
