@@ -335,16 +335,16 @@
         },
         {
             "name": "valkyrja/ci-phpstan",
-            "version": "v26.3.64",
+            "version": "v26.3.65",
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/ci-phpstan-php.git",
-                "reference": "7aa628dcff23d1f8bd5f93fc349b6504bf6790dc"
+                "reference": "3296a9ecfd9c6159667f8fbbd55120240bff35cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/ci-phpstan-php/zipball/7aa628dcff23d1f8bd5f93fc349b6504bf6790dc",
-                "reference": "7aa628dcff23d1f8bd5f93fc349b6504bf6790dc",
+                "url": "https://api.github.com/repos/valkyrjaio/ci-phpstan-php/zipball/3296a9ecfd9c6159667f8fbbd55120240bff35cb",
+                "reference": "3296a9ecfd9c6159667f8fbbd55120240bff35cb",
                 "shasum": ""
             },
             "require": {
@@ -376,9 +376,9 @@
             ],
             "support": {
                 "issues": "https://github.com/valkyrjaio/ci-phpstan-php/issues",
-                "source": "https://github.com/valkyrjaio/ci-phpstan-php/tree/v26.3.64"
+                "source": "https://github.com/valkyrjaio/ci-phpstan-php/tree/v26.3.65"
             },
-            "time": "2026-10-10T16:06:59+00:00"
+            "time": "2026-10-11T16:33:31+00:00"
         },
         {
             "name": "valkyrja/valkyrja",
@@ -386,12 +386,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja-php.git",
-                "reference": "24328f0aae46452b39633e89b0f9f2bc02495e56"
+                "reference": "1a1b860e2cf957659ba73bbedbe4a8eb024b36ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/24328f0aae46452b39633e89b0f9f2bc02495e56",
-                "reference": "24328f0aae46452b39633e89b0f9f2bc02495e56",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/1a1b860e2cf957659ba73bbedbe4a8eb024b36ae",
+                "reference": "1a1b860e2cf957659ba73bbedbe4a8eb024b36ae",
                 "shasum": ""
             },
             "require": {
@@ -410,6 +410,7 @@
                 "league/flysystem-aws-s3-v3": "<3.35.3",
                 "mailgun/mailgun-php": "<4.5.2",
                 "monolog/monolog": "<3.12.1",
+                "php-amqplib/php-amqplib": "<3.7.4",
                 "phpmailer/phpmailer": "<7.1.1",
                 "predis/predis": "<3.7.0",
                 "pusher/pusher-php-server": "<7.3.0",
@@ -424,6 +425,7 @@
                 "league/flysystem-aws-s3-v3": "^3.35.3",
                 "mailgun/mailgun-php": "^4.5.2",
                 "monolog/monolog": "^3.12.1",
+                "php-amqplib/php-amqplib": "^3.7.4",
                 "phpmailer/phpmailer": "^7.1.1",
                 "predis/predis": "^3.7.0",
                 "pusher/pusher-php-server": "^7.3.0",
@@ -444,8 +446,9 @@
                 "mailgun/mailgun-php": "Required to use the Mailgun Mail adapter (^4.5.2).",
                 "monolog/monolog": "Required to use the default Log adapter (^3.12.1).",
                 "openswoole/core": "Required to use the OpenSwoole worker entry point (^26.2.0).",
+                "php-amqplib/php-amqplib": "Required to use the AMQP Queue processor (^3.7.4).",
                 "phpmailer/phpmailer": "Required to use the default Mail adapter (^7.1.1).",
-                "predis/predis": "Required to use the Redis Cache store (^3.7.0).",
+                "predis/predis": "Required to use the Redis Cache store and the Redis queue client (^3.7.0).",
                 "pusher/pusher-php-server": "Required to use the Pusher Broadcast adapter (^7.3.0).",
                 "spiral/roadrunner-http": "Required to use the RoadRunner worker entry point (^4.1.0).",
                 "twig/twig": "Required to use the Twig View engine (^3.30.0).",
@@ -478,7 +481,7 @@
                 "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
                 "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
             },
-            "time": "2026-10-11T13:21:35+00:00"
+            "time": "2026-10-12T05:07:48+00:00"
         }
     ],
     "aliases": [],
