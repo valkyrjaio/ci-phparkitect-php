@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "07b5f8670b7411d259568df40fc583db",
+    "content-hash": "e588ecaf0f13fe92db64d2d8728f3469",
     "packages": [],
     "packages-dev": [
         {
@@ -3421,12 +3421,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja-php.git",
-                "reference": "1a1b860e2cf957659ba73bbedbe4a8eb024b36ae"
+                "reference": "3ccf8ac3d8aac8bc5fea0d6ecaaa2b90ddc85576"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/1a1b860e2cf957659ba73bbedbe4a8eb024b36ae",
-                "reference": "1a1b860e2cf957659ba73bbedbe4a8eb024b36ae",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/3ccf8ac3d8aac8bc5fea0d6ecaaa2b90ddc85576",
+                "reference": "3ccf8ac3d8aac8bc5fea0d6ecaaa2b90ddc85576",
                 "shasum": ""
             },
             "require": {
@@ -3438,6 +3438,7 @@
                 "psr/log": "^3.0.2"
             },
             "conflict": {
+                "async-aws/sqs": "<2.9.0",
                 "filp/whoops": "<2.18.6",
                 "firebase/php-jwt": "<7.2.1",
                 "guzzlehttp/guzzle": "<7.15.5",
@@ -3453,6 +3454,7 @@
                 "vonage/client-core": "<4.14.0"
             },
             "require-dev": {
+                "async-aws/sqs": "^2.9.0",
                 "filp/whoops": "^2.18.6",
                 "firebase/php-jwt": "^7.2.1",
                 "guzzlehttp/guzzle": "^7.15.5",
@@ -3468,6 +3470,7 @@
                 "vonage/client-core": "^4.14.0"
             },
             "suggest": {
+                "async-aws/sqs": "Required to use the SQS Queue processor (^2.9.0).",
                 "ext-curl": "Required to use the default Client adapter (*)",
                 "ext-openswoole": "Required to use the OpenSwoole worker entry point (>=26.2.0).",
                 "ext-pdo": "Required to use the default ORM adapter (*)",
@@ -3516,7 +3519,7 @@
                 "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
                 "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
             },
-            "time": "2026-10-12T05:07:48+00:00"
+            "time": "2026-10-12T16:19:00+00:00"
         },
         {
             "name": "vimeo/psalm",
