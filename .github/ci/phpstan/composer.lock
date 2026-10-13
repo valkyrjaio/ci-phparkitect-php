@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "23e315ed132645009a30c67b154ba70c",
+    "content-hash": "71841e8f26f6bd6ac4dc50efe15d90a8",
     "packages": [],
     "packages-dev": [
         {
@@ -335,16 +335,16 @@
         },
         {
             "name": "valkyrja/ci-phpstan",
-            "version": "v26.3.65",
+            "version": "v26.3.66",
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/ci-phpstan-php.git",
-                "reference": "3296a9ecfd9c6159667f8fbbd55120240bff35cb"
+                "reference": "46a353b266873d2dd6c7db9b46472f45def0ba6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/ci-phpstan-php/zipball/3296a9ecfd9c6159667f8fbbd55120240bff35cb",
-                "reference": "3296a9ecfd9c6159667f8fbbd55120240bff35cb",
+                "url": "https://api.github.com/repos/valkyrjaio/ci-phpstan-php/zipball/46a353b266873d2dd6c7db9b46472f45def0ba6c",
+                "reference": "46a353b266873d2dd6c7db9b46472f45def0ba6c",
                 "shasum": ""
             },
             "require": {
@@ -376,9 +376,9 @@
             ],
             "support": {
                 "issues": "https://github.com/valkyrjaio/ci-phpstan-php/issues",
-                "source": "https://github.com/valkyrjaio/ci-phpstan-php/tree/v26.3.65"
+                "source": "https://github.com/valkyrjaio/ci-phpstan-php/tree/v26.3.66"
             },
-            "time": "2026-10-11T16:33:31+00:00"
+            "time": "2026-10-12T20:07:39+00:00"
         },
         {
             "name": "valkyrja/valkyrja",
@@ -386,12 +386,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja-php.git",
-                "reference": "3ccf8ac3d8aac8bc5fea0d6ecaaa2b90ddc85576"
+                "reference": "ae830eaf67efd17322863f332ac333705391441f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/3ccf8ac3d8aac8bc5fea0d6ecaaa2b90ddc85576",
-                "reference": "3ccf8ac3d8aac8bc5fea0d6ecaaa2b90ddc85576",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/ae830eaf67efd17322863f332ac333705391441f",
+                "reference": "ae830eaf67efd17322863f332ac333705391441f",
                 "shasum": ""
             },
             "require": {
@@ -411,6 +411,7 @@
                 "league/flysystem-aws-s3-v3": "<3.35.3",
                 "mailgun/mailgun-php": "<4.5.2",
                 "monolog/monolog": "<3.12.1",
+                "pda/pheanstalk": "<8.0.2",
                 "php-amqplib/php-amqplib": "<3.7.4",
                 "phpmailer/phpmailer": "<7.1.1",
                 "predis/predis": "<3.7.0",
@@ -427,6 +428,7 @@
                 "league/flysystem-aws-s3-v3": "^3.35.3",
                 "mailgun/mailgun-php": "^4.5.2",
                 "monolog/monolog": "^3.12.1",
+                "pda/pheanstalk": "^8.0.2",
                 "php-amqplib/php-amqplib": "^3.7.4",
                 "phpmailer/phpmailer": "^7.1.1",
                 "predis/predis": "^3.7.0",
@@ -449,6 +451,7 @@
                 "mailgun/mailgun-php": "Required to use the Mailgun Mail adapter (^4.5.2).",
                 "monolog/monolog": "Required to use the default Log adapter (^3.12.1).",
                 "openswoole/core": "Required to use the OpenSwoole worker entry point (^26.2.0).",
+                "pda/pheanstalk": "Required to use the beanstalkd Queue processor (^8.0.2).",
                 "php-amqplib/php-amqplib": "Required to use the AMQP Queue processor (^3.7.4).",
                 "phpmailer/phpmailer": "Required to use the default Mail adapter (^7.1.1).",
                 "predis/predis": "Required to use the Redis Cache store and the Redis queue client (^3.7.0).",
@@ -484,7 +487,7 @@
                 "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
                 "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
             },
-            "time": "2026-10-12T16:19:00+00:00"
+            "time": "2026-10-13T01:19:02+00:00"
         }
     ],
     "aliases": [],
