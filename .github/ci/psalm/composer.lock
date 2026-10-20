@@ -3371,16 +3371,16 @@
         },
         {
             "name": "valkyrja/ci-psalm",
-            "version": "v26.3.73",
+            "version": "v26.3.74",
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/ci-psalm-php.git",
-                "reference": "8e5f43343afcf92d99407750c5d0dbe4e77a4fdd"
+                "reference": "754d78e1f6c077d0920465dded3a261082c8001b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/ci-psalm-php/zipball/8e5f43343afcf92d99407750c5d0dbe4e77a4fdd",
-                "reference": "8e5f43343afcf92d99407750c5d0dbe4e77a4fdd",
+                "url": "https://api.github.com/repos/valkyrjaio/ci-psalm-php/zipball/754d78e1f6c077d0920465dded3a261082c8001b",
+                "reference": "754d78e1f6c077d0920465dded3a261082c8001b",
                 "shasum": ""
             },
             "require": {
@@ -3412,9 +3412,9 @@
             ],
             "support": {
                 "issues": "https://github.com/valkyrjaio/ci-psalm-php/issues",
-                "source": "https://github.com/valkyrjaio/ci-psalm-php/tree/v26.3.73"
+                "source": "https://github.com/valkyrjaio/ci-psalm-php/tree/v26.3.74"
             },
-            "time": "2026-10-18T14:19:07+00:00"
+            "time": "2026-10-19T17:21:02+00:00"
         },
         {
             "name": "valkyrja/valkyrja",
@@ -3422,12 +3422,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja-php.git",
-                "reference": "a2b14bd334efd7790da900116ff239e672671250"
+                "reference": "f14e625b21ec43ea7b1bf0574a3d59c4db5cc72a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/a2b14bd334efd7790da900116ff239e672671250",
-                "reference": "a2b14bd334efd7790da900116ff239e672671250",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/f14e625b21ec43ea7b1bf0574a3d59c4db5cc72a",
+                "reference": "f14e625b21ec43ea7b1bf0574a3d59c4db5cc72a",
                 "shasum": ""
             },
             "require": {
@@ -3442,6 +3442,7 @@
                 "async-aws/sqs": "<2.9.0",
                 "filp/whoops": "<2.18.7",
                 "firebase/php-jwt": "<7.2.1",
+                "google/cloud-pubsub": "<2.23.0",
                 "guzzlehttp/guzzle": "<7.16.0",
                 "league/flysystem": "<3.36.0",
                 "league/flysystem-aws-s3-v3": "<3.35.3",
@@ -3453,12 +3454,13 @@
                 "predis/predis": "<3.7.0",
                 "pusher/pusher-php-server": "<7.3.0",
                 "twig/twig": "<3.30.0",
-                "vonage/client-core": "<4.14.0"
+                "vonage/client-core": "<4.15.0"
             },
             "require-dev": {
                 "async-aws/sqs": "^2.9.0",
                 "filp/whoops": "^2.18.7",
                 "firebase/php-jwt": "^7.2.1",
+                "google/cloud-pubsub": "^2.23.0",
                 "guzzlehttp/guzzle": "^7.16.0",
                 "league/flysystem": "^3.36.0",
                 "league/flysystem-aws-s3-v3": "^3.35.3",
@@ -3470,7 +3472,7 @@
                 "predis/predis": "^3.7.0",
                 "pusher/pusher-php-server": "^7.3.0",
                 "twig/twig": "^3.30.0",
-                "vonage/client-core": "^4.14.0"
+                "vonage/client-core": "^4.15.0"
             },
             "suggest": {
                 "async-aws/sqs": "Required to use the SQS Queue processor (^2.9.0).",
@@ -3481,6 +3483,7 @@
                 "ext-sodium": "Required to use the default Crypt adapters and/or JWT EdDSA Algorithm (*)",
                 "filp/whoops": "Required to use the default Throwable handler (^2.18.7)",
                 "firebase/php-jwt": "Required to use the default Jwt adapter (^7.2.1)",
+                "google/cloud-pubsub": "Required to use the Pub/Sub Queue processor (^2.23.0).",
                 "guzzlehttp/guzzle": "Required to use the default Client adapter (^7.16.0).",
                 "league/flysystem": "Required to use the default Filesystem adapter (^3.36.0).",
                 "league/flysystem-aws-s3-v3": "Required to use the s3 Filesystem adapter (^3.35.3)",
@@ -3494,7 +3497,7 @@
                 "pusher/pusher-php-server": "Required to use the Pusher Broadcast adapter (^7.3.0).",
                 "spiral/roadrunner-http": "Required to use the RoadRunner worker entry point (^4.1.0).",
                 "twig/twig": "Required to use the Twig View engine (^3.30.0).",
-                "vonage/client-core": "Required to use the default SMS adapter (^4.14.0)."
+                "vonage/client-core": "Required to use the default SMS adapter (^4.15.0)."
             },
             "default-branch": true,
             "type": "project",
@@ -3523,7 +3526,7 @@
                 "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
                 "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
             },
-            "time": "2026-10-19T11:09:13+00:00"
+            "time": "2026-10-20T05:40:13+00:00"
         },
         {
             "name": "vimeo/psalm",
