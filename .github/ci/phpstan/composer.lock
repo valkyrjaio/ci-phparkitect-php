@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "176b45db019533c2c5c2796bd7c87abd",
+    "content-hash": "34e94953c410d9ee6279d4070e1dd96b",
     "packages": [],
     "packages-dev": [
         {
@@ -386,12 +386,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja-php.git",
-                "reference": "3542e43b7e430456255eda192a796df800587e90"
+                "reference": "c1516451f8690c3583d2d7c4c1176475f4a401d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/3542e43b7e430456255eda192a796df800587e90",
-                "reference": "3542e43b7e430456255eda192a796df800587e90",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/c1516451f8690c3583d2d7c4c1176475f4a401d6",
+                "reference": "c1516451f8690c3583d2d7c4c1176475f4a401d6",
                 "shasum": ""
             },
             "require": {
@@ -490,7 +490,7 @@
                 "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
                 "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
             },
-            "time": "2026-10-20T16:49:37+00:00"
+            "time": "2026-10-21T14:04:05+00:00"
         }
     ],
     "aliases": [],

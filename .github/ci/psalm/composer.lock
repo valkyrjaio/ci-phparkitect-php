@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ffc0eb711cfefbd4337d541fef8793e0",
+    "content-hash": "fb18a3948ce076d20819a7e666e26722",
     "packages": [],
     "packages-dev": [
         {
@@ -3422,12 +3422,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja-php.git",
-                "reference": "3542e43b7e430456255eda192a796df800587e90"
+                "reference": "c1516451f8690c3583d2d7c4c1176475f4a401d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/3542e43b7e430456255eda192a796df800587e90",
-                "reference": "3542e43b7e430456255eda192a796df800587e90",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/c1516451f8690c3583d2d7c4c1176475f4a401d6",
+                "reference": "c1516451f8690c3583d2d7c4c1176475f4a401d6",
                 "shasum": ""
             },
             "require": {
@@ -3526,7 +3526,7 @@
                 "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
                 "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
             },
-            "time": "2026-10-20T16:49:37+00:00"
+            "time": "2026-10-21T14:04:05+00:00"
         },
         {
             "name": "vimeo/psalm",
